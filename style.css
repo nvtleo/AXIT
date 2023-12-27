@@ -41,6 +41,10 @@ header {
     color: orangered;
 }
 
+.dropdown {
+    display: none;
+}
+
 /* CAROUSEL */
 
 .carousel {
@@ -785,7 +789,7 @@ footer p {
     .effect__imgSP {
         display: flex;
         justify-content: center;
-        margin-left: 9rem;
+        /* margin-left: 9rem; */
         margin-bottom: 2rem;
     }
 
@@ -795,7 +799,7 @@ footer p {
 
     .sub__img {
         width: 33rem;
-        margin-left: 12rem;
+        /* margin-left: 12rem; */
     }
 
     .sub__info {
@@ -833,7 +837,7 @@ footer p {
 
     .standard__img {
         width: 30rem;
-        margin-left: 9rem;
+        /* margin-left: 9rem; */
         padding: 0;
     }
 
@@ -859,4 +863,34 @@ footer p {
         margin: auto;
     }
 
+
+    .header__info {
+        display: none;
+    }
+
+    .dropdown {
+        display: inline-block;
+    }
+
+    .dropdown-menu {
+        background-color: rgb(142, 140, 140);
+    }
+
+    .dropdown-menu li a {
+        color: orangered;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        padding: 1rem 0;
+    }
+
+    .footer__icon i {
+        font-size: 1.5rem;
+        padding: 0 1rem;
+    }
+
+    .footer__text p {
+        font-size: 1.5rem;
+        margin: 1rem 0;
+    }
 }
