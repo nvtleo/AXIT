@@ -1,0 +1,862 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+header {
+    width: 100%;
+    height: 10rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.logo__left {
+    font-size: 5rem;
+    color: white;
+    font-weight: 800;
+}
+
+.logo__right {
+    font-size: 5rem;
+    color: orangered;
+    font-weight: lighter;
+}
+
+.header__info a {
+    font-size: 2.5rem;
+    color: white;
+    text-decoration: none;
+    padding: 0 4rem;
+}
+
+.header__info a:hover {
+    color: orangered;
+}
+
+/* CAROUSEL */
+
+.carousel {
+    background-image: url(./img/Axit-PSD_02\ \(1\).gif);
+    background-size: cover;
+    padding-bottom: 2rem;
+}
+
+.carousel__bg {
+    padding-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.carousel__info {
+    width: 50%;
+}
+
+.carousel__detail {
+    color: white;
+    font-size: 5rem;
+}
+
+.carousel__lorem {
+    color: rgb(227, 223, 223);
+    font-size: 3rem;
+    margin-bottom: 5rem;
+}
+
+.carousel__info hr {
+    width: 15rem;
+    margin: 3rem 0;
+}
+
+
+.crs__infoleft {
+    font-size: 10rem;
+    color: white;
+    font-weight: 800;
+}
+
+.carousel__btn {
+    color: white;
+    background-color: transparent;
+    border: 4px white solid;
+    font-size: 2rem;
+    padding: 2rem 5rem;
+}
+
+
+.crs__inforight {
+    font-size: 10rem;
+    color: rgb(240, 90, 35);
+    font-weight: 100;
+}
+
+.carousel__login {
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    height: 50rem;
+    background-color: white;
+
+}
+
+.login__detail {
+    font-size: 2.5rem;
+    font-weight: 800;
+    background-color: rgb(184, 182, 182);
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.login__detail span {
+    color: rgb(240, 90, 35);
+    padding: 0 10px;
+}
+
+.carousel__login input {
+    font-size: 2rem;
+    padding: 1rem;
+    width: 95%;
+    margin: auto;
+    border: none;
+    border-bottom: 1px solid rgb(227, 223, 223);
+}
+
+.carousel__login button {
+    width: 100%;
+    height: 8rem;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(240, 90, 35);
+    border: none;
+}
+
+/* EFFECT */
+
+.effect {
+    background-color: rgb(245 245 245);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.effect__tab {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem;
+}
+
+.effect__tab button {
+    width: 13rem;
+    height: 15rem;
+    font-size: 2rem;
+    color: white;
+    border: none;
+    background-color: rgb(36, 35, 35);
+    margin: 0.5px 0;
+    border-radius: 0.5rem;
+}
+
+.effect__tab button:nth-child(1) {
+    background-color: rgb(240, 90, 35);
+}
+
+.effcet__detail {
+    width: 40%;
+}
+
+.effcet__detail h2 {
+    font-size: 4rem;
+}
+
+.effect__info {
+    margin: 4rem 0;
+}
+
+.effcet__detail p {
+    font-size: 2.7rem;
+    color: rgb(184, 182, 182);
+}
+
+.effcet__detail button {
+    color: white;
+    background-color: rgb(240, 90, 35);
+    width: 15rem;
+    height: 5rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+.effect__imgSP {
+    display: none;
+    width: 333px;
+    height: 254px;
+    background: url(./img/download\ \(1\).png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.effect__img {
+    width: 333px;
+    height: 254px;
+    background: url(./img/download\ \(1\).png);
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+/* SUB LIST */
+.sub__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.sub__img {
+    margin-top: 10rem;
+    width: 453px;
+    height: 303px;
+    background: url(./img/download\ \(1\).png) -337px -5px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 22px 30px 0px rgba(204, 204, 204, 0.48);
+}
+
+.sub__info {
+    width: 40%;
+    padding-top: 10rem;
+}
+
+.sub__info h2 {
+    font-size: 3rem;
+}
+
+.sub__info hr {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(240, 90, 35);
+    width: 10rem;
+    margin: 2rem 0;
+}
+
+.sub__info p {
+    color: rgb(142, 140, 140);
+    font-size: 2rem;
+}
+
+.title__text {
+    margin: 1rem 0;
+}
+
+.title__text h3 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.sub__title {
+    display: flex;
+    align-items: center;
+}
+
+.sub__title i {
+    font-size: 5rem;
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+    color: rgb(240, 90, 35);
+    padding-right: 10rem;
+}
+
+/* STANDARD PICTURE */
+.standard {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(227, 223, 223);
+    padding: 10rem;
+}
+
+.standard__text {
+    width: 50%;
+}
+
+.standard__text hr {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(240, 90, 35);
+    width: 10rem;
+    margin: 2rem 0;
+}
+
+.standard__text h2 {
+    font-size: 3rem;
+}
+
+.standard__text p {
+    font-size: 2rem;
+    color: rgb(150, 148, 148);
+    padding: 2rem 0;
+}
+
+.standard__img {
+    width: 453px;
+    height: 303px;
+    background: url(./img/download\ \(1\).png) no-repeat -337px -5px;
+    box-shadow: 0px 22px 30px 0px rgba(204, 204, 204, 0.48);
+    width: 452px;
+    height: 301px;
+    background-position: -800px -5px;
+}
+
+/* <!-- AWESOME CARD --> */
+.awesome__card {
+    padding: 10rem;
+}
+
+.awesome__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.awesome__header h2 {
+    font-size: 3.5rem;
+}
+
+.awesome__header hr {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(240, 90, 35);
+    width: 10rem;
+    margin: 2rem 0;
+}
+
+.awesome__header span {
+    font-size: 2rem;
+    color: rgb(150, 148, 148);
+}
+
+.card__item {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+}
+
+.item__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.item__info i {
+    font-size: 4rem;
+    color: rgb(240, 90, 35);
+    border: 3px solid rgb(240, 90, 35);
+    border-radius: 50%;
+    padding: 2rem;
+
+}
+
+.item__info span {
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.item__info p {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(150, 148, 148);
+}
+
+/* <!-- STYLE DESIGN --> */
+.style__design {
+    width: 100%;
+    height: 40rem;
+    background: url(./img//Axit-PSD_28.gif);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10rem;
+}
+
+.style__design h2 {
+    font-size: 3rem;
+    color: white;
+}
+
+.style__design hr {
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    width: 10rem;
+    margin: 2rem 0;
+}
+
+.style__design p {
+    font-size: 2rem;
+    color: rgb(184, 182, 182);
+    padding-bottom: 5rem;
+}
+
+.style__design button {
+    color: white;
+    background-color: transparent;
+    border: 4px white solid;
+    font-size: 2rem;
+    padding: 2rem 5rem;
+    margin-bottom: 5rem;
+}
+
+/* <!-- CONTACT --> */
+.contact__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact__header h2 {
+    font-size: 3rem;
+}
+
+.contact__header hr {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(240, 90, 35);
+    width: 10rem;
+    margin: 2rem 0;
+}
+
+.contact__header p {
+    font-size: 2rem;
+    color: rgb(150, 148, 148);
+}
+
+.contact__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contact__login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    word-wrap: break-word;
+}
+
+.contact__login input,
+.contact__msg {
+    font-size: 2rem;
+    padding: 1rem;
+    width: 45rem;
+    margin: 3rem 0;
+    border: none;
+    border-bottom: 1px solid rgb(227, 223, 223);
+    word-wrap: break-word;
+}
+
+.contact__msg {
+    height: 20rem;
+    margin-top: 10rem;
+
+}
+
+.button__msg {
+    display: flex;
+    justify-content: center;
+}
+
+.button__msg button {
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(240, 90, 35);
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    height: 10rem;
+    background-color: black;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer i {
+    color: rgb(184, 182, 182);
+    font-size: 3rem;
+    padding: 0 2rem;
+}
+
+footer p {
+    color: rgb(184, 182, 182);
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+/* responsive */
+@media screen and (max-width:992px) {
+    .header__info a {
+        font-size: 1.7rem;
+        padding: 0 1rem;
+    }
+
+    .crs__infoleft {
+        font-size: 7rem;
+        margin-left: 10rem;
+    }
+
+    .crs__inforight {
+        font-size: 7rem;
+    }
+
+    .carousel__detail {
+        font-size: 3.5rem;
+    }
+
+    .carousel__lorem {
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .crs__btn {
+        display: flex;
+        justify-content: center;
+        margin-right: 3rem;
+    }
+
+    .effect__tab {
+        padding: 5rem;
+    }
+
+    .effect__tab button {
+        width: 10rem;
+        height: 12rem;
+        font-size: 2rem;
+    }
+
+    .effcet__detail h2 {
+        font-size: 3rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .effect__info {
+        margin: 2rem 0;
+    }
+
+    .effcet__detail p {
+        font-size: 2rem;
+    }
+
+    .effcet__detail button {
+        margin-left: 10rem;
+    }
+
+    .sub__info h2 {
+        font-size: 2.5rem;
+    }
+
+    .sub__info p {
+        font-size: 1.5rem;
+    }
+
+    .sub__title i {
+        font-size: 3rem;
+        width: 3.5rem;
+        height: 3.5rem;
+        padding-right: 5rem;
+    }
+
+    .standard__text p {
+        font-size: 1.5rem;
+        padding-right: 1rem;
+    }
+
+    .item__info i {
+        font-size: 2.4rem;
+
+    }
+
+    .item__info span {
+        font-size: 2rem;
+        padding: 2rem 0;
+    }
+
+    .item__info p {
+        font-size: 1.5rem;
+    }
+
+    /* .item__kb {
+        margin-bottom: 4rem;
+    } */
+
+    /* .item__center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 3rem;
+    } */
+
+    .style__design p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .carousel__bg {
+        display: inline;
+    }
+
+    .carousel__info {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .carousel__info span {
+        margin-left: 0;
+    }
+
+    .carousel__login {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .effect__tab button {
+        width: 6rem;
+        height: 6rem;
+        font-size: 2rem;
+    }
+
+    .effcet__detail h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+    .effcet__detail p {
+        font-size: 1.5rem;
+    }
+
+    .effect__img {
+        object-fit: cover;
+        width: 23rem;
+        height: 25rem;
+    }
+
+    .effcet__detail button {
+        margin-left: 5rem;
+    }
+
+    .sub__img {
+        object-fit: cover;
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .sub__info h2 {
+        font-size: 2rem;
+    }
+
+    .sub__info p {
+        font-size: 1.3rem;
+        margin: 0;
+    }
+
+    .sub__title i {
+        font-size: 3rem;
+        width: 3rem;
+        height: 3rem;
+        padding-right: 5rem;
+    }
+
+    .title__text h3 {
+        font-size: 1.3rem;
+        margin: 0;
+    }
+
+    .standard {
+        display: flex;
+        justify-content: space-between;
+        padding: 5rem;
+    }
+
+    .standard__img {
+        object-fit: cover;
+        width: 25rem;
+        height: 25rem;
+    }
+
+    .standard__text h2 {
+        font-size: 2rem;
+    }
+
+    .standard__text h2 {
+        margin: 0;
+    }
+
+    .item__info span {
+        font-size: 2rem;
+        padding: 2rem 5rem;
+
+    }
+
+    .item__kb {
+        margin: 0;
+        padding-top: 5rem;
+    }
+
+    /* .item__infoct {
+        padding-top: 4rem;
+    } */
+
+    .contact__info {
+        display: inline;
+        text-align: center;
+    }
+
+    .contact__msg {
+        width: 100%;
+    }
+
+    .text__area {
+        width: 60%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .header__info a {
+        font-size: 1.5rem;
+    }
+
+    .effect {
+        display: inline;
+    }
+
+    .effect__tab {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .effcet__detail {
+        width: 90%;
+        margin: auto;
+    }
+
+    .effect__btn {
+        display: flex;
+        justify-content: center;
+    }
+
+    .effect__btn button {
+        margin: 0;
+    }
+
+    .effect__img {
+        display: none;
+    }
+
+    .effect__imgSP {
+        display: flex;
+        justify-content: center;
+        margin-left: 9rem;
+        margin-bottom: 2rem;
+    }
+
+    .sub__list {
+        display: inline;
+    }
+
+    .sub__img {
+        width: 33rem;
+        margin-left: 12rem;
+    }
+
+    .sub__info {
+        width: 90%;
+        margin: auto;
+    }
+
+    .sub__info h2 {
+        text-align: center;
+    }
+
+    .sub__hr {
+        display: flex;
+        justify-content: center;
+    }
+
+    .standard {
+        display: block;
+        background-color: rgb(227, 223, 223);
+    }
+
+    .standard__text {
+        width: 90%;
+        margin: auto;
+    }
+
+    .standard__text h2 {
+        text-align: center;
+    }
+
+    .standard__hr {
+        display: flex;
+        justify-content: center;
+    }
+
+    .standard__img {
+        width: 30rem;
+        margin-left: 9rem;
+        padding: 0;
+    }
+
+    .awesome__header {
+        text-align: center;
+    }
+
+    .item__info {
+        padding: 0 0.5rem;
+    }
+
+    .item__info span,
+    .item__info p {
+        font-size: 1.3rem;
+    }
+
+    .style__design {
+        padding: 1rem;
+    }
+
+    .text__area {
+        width: 80%;
+        margin: auto;
+    }
+
+}
