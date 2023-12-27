@@ -837,7 +837,6 @@ footer p {
 
     .standard__img {
         width: 30rem;
-        /* margin-left: 9rem; */
         padding: 0;
     }
 
@@ -892,5 +891,21 @@ footer p {
     .footer__text p {
         font-size: 1.5rem;
         margin: 1rem 0;
+    }
+
+    .contact__login input {
+        width: 100%;
+    }
+
+    .awesome__card {
+        padding: 0;
+    }
+
+    .item__info {
+        width: 33%;
+    }
+
+    .item__info p {
+        font-size: 1rem;
     }
 }
